@@ -7,8 +7,8 @@ import InfoIcon from '@mui/icons-material/Info';
 import Image from 'next/image';
 
 import profileImage from './../../assets/images/image.png'
-import waveup from './../../assets/images/wave/waveTop.svg'
-import wavedown from './../../assets/images/wave/waveDown.svg'
+import waveup from './../../assets/images/wave/wavealttop.svg'
+import wavedown from './../../assets/images/wave/WaveTopOther.svg'
 
 
 

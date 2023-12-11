@@ -1,7 +1,7 @@
 
 .bannerSection{
     height: 80vh;
-background: url("../../../assets/images/background-banner.png"),linear-gradient(45deg,#02273c,#E5CCFD);
+background: url("../../../assets/images/background-banner.png"),linear-gradient(45deg,#02273c,#9C27B0);
 background-repeat: no-repeat;
 background-position:center;
 background-size:cover;

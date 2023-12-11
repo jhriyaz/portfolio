@@ -7,7 +7,7 @@ let customTheme = createTheme({
       main: "#222",
     },
     secondary: {
-      main: "#E5CCFD"
+      main: "#9C27B0"
     },
     info: {
       main: "#034e78"
@@ -15,7 +15,7 @@ let customTheme = createTheme({
   },
 });
 const SiteTheme = ({ children }) => {
-  return <ThemeProvider  theme={customTheme}>{children}</ThemeProvider>;
+  return <ThemeProvider   theme={customTheme}>{children}</ThemeProvider>;
 };
 
 export default SiteTheme;
