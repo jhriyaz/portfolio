@@ -1,11 +1,13 @@
+
 import { Container, Typography } from "@mui/material";
 import './../shared/tittle.css'
 
-const Tittle = ({tittle}) => {
+const Tittle = ({tittle,colorset}) => {
+
     return (
        <Container>
-       <div class="section_tittle">
-<Typography className="tittleText">
+       <div className="section_tittle">
+<Typography className={`tittleText tail-font-bold tail-text-[#1e1c1c]`} sx={{ textShadow:'0px 1px gray'}} >
     {tittle}
 </Typography>
 </div>
