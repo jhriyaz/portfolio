@@ -30,7 +30,7 @@ function NavBar() {
 
 
   return (
-    <AppBar position='sticky'>
+    <AppBar position='' className=' tail-top-0' >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
          
