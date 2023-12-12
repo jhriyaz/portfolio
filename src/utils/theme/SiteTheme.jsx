@@ -15,7 +15,7 @@ let customTheme = createTheme({
   },
 });
 const SiteTheme = ({ children }) => {
-  return <ThemeProvider   theme={customTheme}>{children}</ThemeProvider>;
+  return <ThemeProvider theme={customTheme}>{children}</ThemeProvider>;
 };
 
 export default SiteTheme;
