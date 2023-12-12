@@ -2,7 +2,7 @@
 import { Container, Typography } from "@mui/material";
 import './../shared/tittle.css'
 
-const Tittle = ({tittle,colorset}) => {
+const Tittle = ({tittle}) => {
 
     return (
        <Container>

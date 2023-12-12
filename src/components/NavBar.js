@@ -10,10 +10,10 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
 import Image from 'next/image';
 import logo from './../assets/images/MJH.png'
-const pages = ['About', 'Projects', 'Blog'];
+import Link from 'next/link';
+const pages = ['about', 'projects', 'blog'];
 
 function NavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -71,8 +71,15 @@ src={logo} alt='Website logo'
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                <MenuItem key={page}  onClick={handleCloseNavMenu}>
+              
+                 
+                 <Link href="#projects-section"  scroll={false} >
+                 {page}
+                 </Link>
+                   
+                   
+                
                 </MenuItem>
               ))}
             </Menu>
