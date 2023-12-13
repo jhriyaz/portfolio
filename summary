@@ -1,0 +1,35 @@
+[33mcommit 4b0ef137b2559a5f9e34957999e1c91bc8d5b98d[m[33m ([m[1;36mHEAD -> [m[1;32mdevelopment[m[33m, [m[1;31morigin/development[m[33m)[m
+Author: jhriyaz <jhriyaz@gmail.com>
+Date:   Tue Dec 12 16:31:35 2023 +0600
+
+    added footer and skill section
+
+[33mcommit 61d6e3ac1f5ee6a4633f0c933156498e57016065[m
+Author: jhriyaz <jhriyaz@gmail.com>
+Date:   Tue Dec 12 02:36:32 2023 +0600
+
+    added skill section
+
+[33mcommit b5544caf54579a80c5cfb6cbc138813f1ba1861d[m
+Author: jhriyaz <jhriyaz@gmail.com>
+Date:   Tue Dec 12 02:04:29 2023 +0600
+
+    added about me Section
+
+[33mcommit 9e237a591d24737f2b073e61353e1f356573792a[m
+Author: jhriyaz <jhriyaz@gmail.com>
+Date:   Mon Dec 11 21:20:56 2023 +0600
+
+    fixed navbar
+
+[33mcommit ba48e6d56ee30d95abc4ef0f04f4f658bbc2f99d[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m, [m[1;32mmail[m[33m, [m[1;32mchange[m[33m)[m
+Author: jhriyaz <jhriyaz@gmail.com>
+Date:   Mon Dec 11 18:52:22 2023 +0600
+
+    add banner
+
+[33mcommit 718be05512e51197c6f064fc1f65be1176016390[m
+Author: jhriyaz <jhriyaz@gmail.com>
+Date:   Mon Dec 11 00:31:26 2023 +0600
+
+    Initial commit from Create Next App

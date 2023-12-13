@@ -20,7 +20,7 @@ import next from "./../../assets/images/skills/next.png"
 
 const Skills = () => {
     return (
-        <Grid className="tail-relative  tail-bg-[#22222258] tail-pt-10 tail-pb-10">
+        <Grid className="tail-relative tail-pt-10 tail-pb-10" id='skills'>
           <p id="about"></p>
         <Image
           className="tail-min-w-full tail-z-[-30]"

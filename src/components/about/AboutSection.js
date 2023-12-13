@@ -7,7 +7,7 @@ import aboutSection from "./../../assets/images/aboutSection.png";
 import Image from "next/image";
 const AboutSection = () => {
   return (
-    <Grid className="tail-relative">
+    <Grid className="tail-relative" id="about">
       <Image
         className="tail-min-w-full tail-z-[-30]"
         min-width={"100%"}
