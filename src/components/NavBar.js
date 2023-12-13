@@ -13,7 +13,8 @@ import MenuItem from '@mui/material/MenuItem';
 import Image from 'next/image';
 import logo from './../assets/images/MJH.png'
 import Link from 'next/link';
-const pages = ['about', 'projects', 'blog'];
+
+const pages = ['about', 'projects', 'skills'];
 
 function NavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -74,7 +75,7 @@ src={logo} alt='Website logo'
                 <MenuItem key={page}  onClick={handleCloseNavMenu}>
               
                  
-                 <Link href="#projects-section"  scroll={false} >
+                 <Link href={`/#${page}`}  >
                  {page}
                  </Link>
                    
@@ -99,7 +100,9 @@ src={logo} alt='Website logo'
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                {page}
+               <Link href={`/#${page}`}  >
+                 {page}
+                 </Link>
               </Button>
             ))}
           </Box>
@@ -107,7 +110,9 @@ src={logo} alt='Website logo'
           <Box sx={{ flexGrow: 0 }}>
            
            <Button variant='contained' color='secondary'>
-            Download CV
+           <Link href='https://drive.google.com/uc?id=1lsxRQE93qPDrLS3qBlKg877wynNZV3MY&export=download' download>
+           Resume
+           </Link>
            </Button>
           </Box>
         </Toolbar>

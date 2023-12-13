@@ -16,7 +16,7 @@ let petangelpoint=[
 
 const Projects = () => {
     return (
-      <div  id='projects-section' >
+      <div  id='projects' >
 
      
       <Grid className="tail-relative ">

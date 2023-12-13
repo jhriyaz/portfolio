@@ -25,7 +25,7 @@ const Footer = () => {
           src={wavedown}
           style={{ bottom: 0, position: "absolute" }}
         />
-        <Container className=" tail-min-w-full  lg:tail-py-[122px] ">
+        <Container className=" tail-min-w-full  lg:tail-py-[98.5px] ">
 <Image height={100} width={150} alt="Logo" src={logo} className="tail-flex tail-justify-center tail-mx-auto ">
 
 </Image>

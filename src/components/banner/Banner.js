@@ -9,6 +9,7 @@ import Image from 'next/image';
 import profileImage from './../../assets/images/image.png'
 import waveup from './../../assets/images/wave/wavealttop.svg'
 import wavedown from './../../assets/images/wave/WaveTopOther.svg'
+import Link from 'next/link';
 
 
 
@@ -48,7 +49,9 @@ I.m  a dedicated React developer weaving digital experiences with innovation. Di
 <InfoIcon></InfoIcon> About
    </Button>
    <Button variant='contained' color='info'  sx={{display:'flex',alignItems:'center', paddingY:1,gap:1}}>
-  <PortraitIcon></PortraitIcon> Resume
+   <Link href='https://drive.google.com/uc?id=1lsxRQE93qPDrLS3qBlKg877wynNZV3MY&export=download' download>
+   <PortraitIcon></PortraitIcon>  Resume
+           </Link>
    </Button>
 </Grid>
 </Grid>
